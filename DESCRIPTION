@@ -1,7 +1,7 @@
 Package: enerscape
 Type: Package
 Title: Compute Energy Landscapes
-Version: 0.1.0
+Version: 0.1.1
 Author: Emilio Berti
 Maintainer: Emilio Berti <emilio.berti@idiv.de>
 Description: Compute energy landscapes using a digital elevation model (DEM) 
@@ -9,11 +9,11 @@ Description: Compute energy landscapes using a digital elevation model (DEM)
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
-Imports: raster, gdistance, rgdal, sp, Matrix
+Imports: raster, gdistance, rgdal, rgeos, sp, Matrix
 Suggests: knitr, rmarkdown
 RoxygenNote: 7.1.1
 Depends: R (>= 2.10)
 NeedsCompilation: no
-Packaged: 2021-02-09 15:38:40 UTC; eb97ziwi
+Packaged: 2021-05-21 07:10:26 UTC; eb97ziwi
 Repository: CRAN
-Date/Publication: 2021-02-12 09:40:02 UTC
+Date/Publication: 2021-05-21 07:40:02 UTC
