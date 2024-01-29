@@ -1,4 +1,4 @@
-## ---- include = FALSE---------------------------------------------------------
+## ----include = FALSE----------------------------------------------------------
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>"
@@ -10,9 +10,11 @@ library(enerscape)
 
 ## ----sirente, fig.width=6, fig.height=3.65------------------------------------
 data("sirente")
-dem <- rast(sirente, 
-            crs = "+proj=utm +zone=32 +datum=WGS84 +units=m +no_defs",
-            extent = ext(879340, 885280, 4672880, 4676810))
+dem <- rast(
+  sirente, 
+  crs = "+proj=utm +zone=32 +datum=WGS84 +units=m +no_defs",
+  extent = ext(879340, 885280, 4672880, 4676810)
+)
 plot(dem)
 
 ## ----crs----------------------------------------------------------------------
